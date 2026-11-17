@@ -1,0 +1,17 @@
+{
+  "name": "Shaxmat Plus Academy",
+  "short_name": "SP Academy",
+  "description": "Bolalar uchun shaxmat darslari: Taʼminotchi, piyoda va barcha figuralar",
+  "lang": "uz",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e6f4ff",
+  "theme_color": "#e6f4ff",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
