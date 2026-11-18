@@ -1,5 +1,5 @@
 /* Shaxmat Plus Academy — offlayn ishlash. Yangilanish chiqarganda VER raqamini oshiring. */
-const VER='spa-v1';
+const VER='spa-v7';
 const FILES=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png','./icon-maskable-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VER).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==VER).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
